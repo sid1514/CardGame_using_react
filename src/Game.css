@@ -1,0 +1,29 @@
+
+
+.G{
+  text-align: center;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+  
+}
+#vs{
+    margin:10px;
+    padding:10px;
+    margin-top: 50px;
+}
+h1{
+    padding:10px;
+    margin:10px;
+}
+.B{
+    padding:10px;
+    margin:10px;
+    text-align: center;
+
+}
+.p1{
+    width:auto;
+    height:50%;
+}

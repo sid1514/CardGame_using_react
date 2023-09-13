@@ -1,0 +1,33 @@
+import React, { useState } from 'react';
+import CharCard from './CharCard'; // Assuming this is the component to render individual cards
+import './App.css';
+
+const Game = () => {
+  const [selectedCardIndex, setSelectedCardIndex] = useState(-1); // Initialize with an invalid index
+  const cards = [
+    { name: 'subzero', power: 10000, spattack: 2000, spattack2: 4000, pic: 'subzero.jpg' },
+    { name: 'scorpion', power: 15000, spattack: 2400, spattack2: 3000, pic: 'scorpion.jpg' },
+    { name: 'Raiden', power: 18000, spattack: 5400, spattack2: 8000, pic: 'raiden.jpg' },
+  ];
+
+  const handlePlay = () => {
+    const randomIndex = Math.floor(Math.random() * cards.length);
+    setSelectedCardIndex(randomIndex);
+  };
+
+  return (
+    <div className='App'>
+      <div className='p1'>
+        {selectedCardIndex !== -1 && <CharCard card={cards[selectedCardIndex]} />}
+      </div>
+
+      <h1>VS</h1>
+
+      <div className='p2'>card 2</div>
+
+      <button onClick={handlePlay}>Play</button>
+    </div>
+  );
+};
+
+export default Game;
