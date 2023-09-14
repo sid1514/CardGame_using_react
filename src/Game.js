@@ -8,7 +8,7 @@ const Game=()=>{
     let [power,setPower]=useState();
     let [spattack,setAttack1]=useState();
     let [spattack2,setAttack2]=useState();
-    let [cards,setCards]=useState([{name:'subzero',power:10000,spattack:2000,spattack2:4000,pic:'subzero.jpg'},{name:'scorpion',power:15000,spattack:2400,spattack2:3000,pic:'scorpion.jpg'},{name:'Raiden',power:18000,spattack:5400,spattack2:8000,pic:'raiden.jpg'}])
+    let [cards,setCards]=useState([{name:'subzero',power:10000,spattack:2000,spattack2:4000,pic:'subzero.jpg'},{name:'scorpion',power:15000,spattack:2400,spattack2:3000,pic:'scorpion.jpg'},{name:'Raiden',power:18000,spattack:5400,spattack2:8000,pic:'raiden.jpg'},{name:'Liu kang',power:17500,spattack:5300,spattack2:8800,pic:'lu kang.jpg'}])
     const [Index, setIndex] = useState(-1);
     const [Index2, setIndex2] = useState(-1);
     const [yourCardClicked, setYourCardClicked] = useState(false);

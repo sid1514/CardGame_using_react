@@ -1,6 +1,6 @@
 import { Route,Routes} from 'react-router-dom';
 import Login from './Login';
-import Home from './Home';
+
 import Game from './Game';
 import In from './Instruction';
 const Routing=()=>{

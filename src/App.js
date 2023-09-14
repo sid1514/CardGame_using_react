@@ -1,6 +1,6 @@
 import './App.css';
-import Home from './Home';
 
+import NavBar from './NavBar';
 const App=()=> {
   
  
@@ -11,7 +11,7 @@ const App=()=> {
     <div className='App'>
     
       
-    <Home/>
+    <NavBar/>
           
     </div>
   
