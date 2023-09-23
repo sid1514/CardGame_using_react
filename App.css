@@ -1,0 +1,41 @@
+
+  
+.App {
+  
+  
+  text-align: left;
+ 
+  background-image: url('/public/bg_home.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  background-color: black;
+}
+
+
+  
+  
+.main{
+  text-align: center;
+  padding:20px;
+  margin:10px;
+  background-image:url('/public/bg.jpg');
+  border-image-repeat: none;
+  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+}
+.home{
+  padding:70px;
+  text-align: center;
+  justify-content: center;
+  margin: 50px;
+  color:aliceblue;
+  background-image:url('/public/bh_1.jpg');
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
